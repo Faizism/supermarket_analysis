@@ -60,7 +60,10 @@ Key Objectives:
 - Focus campaigns on high-potential products like wine and meat, with innovative offers for fruits and fish.
 - Analyze website user behavior to improve conversion rates.
 
-## 6. Contact
+## 6. Dashboard
+- [Tableau](https://public.tableau.com/views/supermarket_dashboard_17332293280460/Dashboard1?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link) 
+
+## 7. Contact
 - Name: Muhammad Fa'iz Ismail
 - Email: ismail1.faiz1@gmail.com
 - Linkedin: https://www.linkedin.com/in/muhammad-fa-iz-ismail-b0b4ab1b5/
