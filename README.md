@@ -1,25 +1,22 @@
-<h1> [Your Project Title] </h1>
+<h1> Customer Insights and Campaign Effectiveness Analysis </h1>
 
 ## 1. Project Overview
-This project analyzes business data to extract insights, improve decision-making, and identify key trends. The primary focus is to **[Your Problem Statements]**(mention business objectives, such as optimizing sales, reducing operational costs, customer segmentation, etc.).
+This project analyzes customer insights and the effectiveness of promotional campaigns at Supermarket X. The primary focus is to increase customer responsiveness rate to promotional campaigns and optimize marketing strategies.
 
 Key Objectives:
-- Objective 1: (E.g., Analyze customer purchasing patterns)
-- Objective 2: (E.g., Forecast future sales using machine learning)
-- Objective 3: (E.g., Identify high-value customer segments)
+1. Identify the characteristics of customers who have never responded to promotional campaigns.
+2. Determine the types of products frequently purchased by customers who have never responded to promotional campaigns.
+3. Analyze the distribution channels used by non-responsive customers.
 
 ## 2. Data Sources
-- [Dataset 1](link) - Description of dataset (e.g., Sales data for 2020–2023)
-- [Dataset 2](link) – Description of dataset (e.g., Customer demographic information)
-- ...
+- [Dataset 1](https://www.kaggle.com/datasets/rodsaldanha/arketing-campaign) - Marketing Campaign of Supermarket 2012-2014
+
 
 ## 3. Technologies Used
-- Programming Language: Python (e.g., Pandas, NumPy)
-- Visualization: Matplotlib, Seaborn, Plotly
-- Interactive Dashboard: Tableau
+- Programming Language: Python (Pandas, NumPy, Scipy, Matplotlib, Seaborn, Plotly)
+- Visualization Tools: Matplotlib, Seaborn
 - Version Control: Git
 - Others: Jupyter Notebook
-- ...
 
 ## 4. Project Structure
 
@@ -27,31 +24,43 @@ Key Objectives:
 ├── README.md          <- The top-level README for developers using this project.
 |
 ├── data
-│   ├── raw            <- Data from third party sources.
-│   └── cleaned        <- The data that has been cleaned.
+│   ├── raw            <- Raw data from supermarket campaigns.
+│   └── cleaned        <- Cleaned and processed dataset.
 │
-├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-│                         the creator's initials, and a short `-` delimited description, e.g.
-│                         `1.0-jqp-initial-data-exploration`.
+├── notebooks          <- Jupyter notebooks for data analysis and visualization.
+│                         Naming convention: [step]-[author]-[description].ipynb
 │
-├── reports            <- Generated analysis as PowerPoint, PDF, LaTeX, etc.
-|   ├── slide          <- Generated PowerPoint
-│   └── figures        <- Generated graphics and figures to be used in reporting
+├── reports            <- Generated visualizations and analysis reports.
+│   ├── summary        <- Summary reports in PDF/PowerPoint format.
+│   └── figures        <- Graphics and visualizations used in reporting.
 │
-├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-│                         generated with `pip freeze > requirements.txt`
+├── requirements.txt   <- Required Python libraries for this project.
 │
-└── src                <- Source code for use in this project.
+└── src                <- Source code for data processing, analysis, and modeling.
 
 ```
 
 ## 5. Summary of Finding
 ### 5.1 Business Insight
-In this section, you can present the **actionable insights** derived from the analysis results.
+1. Customer Response and Demographic Insights
+- UnderGraduate customers and customers in a relationship with children/teenagers tend to be less responsive to campaigns.
+- Low-income customers have distinct purchasing behaviors, often focusing on daily necessities.
+  
+2. Product Purchasing Patterns
+- Responsive customers show higher spending on wine and meat products.
+- Fruits and fish have moderate spending but show potential for growth through targeted campaigns.
+
+3. Distribution Channels
+- Physical stores dominate purchases, while websites show potential for growth.
+- Catalogs remain important for less digitally active customers.
+  
 ### 5.2 Actionable Recommendation
-In this section, you can offer **actionable business recommendations** to address the identified problems.
+- Develop targeted promotions for specific customer demographics (e.g., UnderGraduate and low-income customers).
+- Implement cross-channel marketing strategies, emphasizing catalogs and physical stores.
+- Focus campaigns on high-potential products like wine and meat, with innovative offers for fruits and fish.
+- Analyze website user behavior to improve conversion rates.
 
 ## 6. Contact
-- Name: 
-- Email:
-- Linkedin:
+- Name: Muhammad Fa'iz Ismail
+- Email: ismail1.faiz1@gmail.com
+- Linkedin: https://www.linkedin.com/in/muhammad-fa-iz-ismail-b0b4ab1b5/
