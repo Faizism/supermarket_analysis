@@ -35,9 +35,6 @@ Key Objectives:
 │   └── figures        <- Graphics and visualizations used in reporting.
 │
 ├── requirements.txt   <- Required Python libraries for this project.
-│
-└── src                <- Source code for data processing, analysis, and modeling.
-
 ```
 
 ## 5. Summary of Finding
